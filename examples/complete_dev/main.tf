@@ -211,11 +211,11 @@ module "vpc" {
     IP1 = {
       bgp_asn     = 65112
       ip_address  = "1.2.3.4"
-      device_name = "some_name"
+      device_name = "some_other_name"
     },
     IP2 = {
       bgp_asn    = 65112
-      ip_address = "5.6.7.8"
+      ip_address = "5.6.7.9"
     }
   }
 
